@@ -1,0 +1,56 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\user\\Documents\\html\\Модульстарт\\333\\onion-arch-net-core\\Api\\Api.csproj",
+    "projectName": "Api",
+    "projectPath": "C:\\Users\\user\\Documents\\html\\Модульстарт\\333\\onion-arch-net-core\\Api\\Api.csproj",
+    "outputPath": "C:\\Users\\user\\Documents\\html\\Модульстарт\\333\\onion-arch-net-core\\Api\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {
+          "C:\\Users\\user\\Documents\\html\\Модульстарт\\333\\onion-arch-net-core\\Core\\Core.csproj": {
+            "projectPath": "C:\\Users\\user\\Documents\\html\\Модульстарт\\333\\onion-arch-net-core\\Core\\Core.csproj"
+          },
+          "C:\\Users\\user\\Documents\\html\\Модульстарт\\333\\onion-arch-net-core\\Infrastructure\\Infrastructure.csproj": {
+            "projectPath": "C:\\Users\\user\\Documents\\html\\Модульстарт\\333\\onion-arch-net-core\\Infrastructure\\Infrastructure.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Microsoft.AspNetCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.1, )",
+          "autoReferenced": true
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
