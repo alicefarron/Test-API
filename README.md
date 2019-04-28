@@ -2,4 +2,4 @@
 
 Простите, я пыталась, но не сделала вторую часть
 
-![iamstupid](lapki.jpg)
+<img src="lapki.jpg"/>
